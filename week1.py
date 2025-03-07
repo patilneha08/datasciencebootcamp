@@ -18,6 +18,7 @@ for i in range(len(l)):
         print(l[i])
 
 #Your task is to count the number of different words in this text
+
 s= """I have provided this text to provide tips on creating interesting paragraphs. First, start with a clear topic sentence that introduces the main idea. Then, support the topic sentence with specific details, examples, and evidence. Vary the sentence length and structure to keep the reader engaged. Finally, end with a strong concluding sentence that summarizes the main points. Remember, practice makes perfect!"""
 
 arr=s.split(' ')
@@ -35,11 +36,13 @@ def count_vowels(word):
 print(count_vowels("namaste"))
 
 #Iterate through the following list of animals and print each one in all caps.
+
 animals=['tiger', 'elephant', 'monkey', 'zebra', 'panther']
 for animal in animals:
     print(animal.upper())
 
 #Write a program that iterates from 1 to 20, printing each number and whether it's odd or even.
+
 for i in range(1,21):
     if i%2==0:
         print(f"The number {i} is even")
